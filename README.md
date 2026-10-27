@@ -254,6 +254,8 @@ This project demonstrates practical skills across the complete Data Science work
 #  Technologies Used
 
 - Python
+- pathlib
+- warnings
 - Pandas
 - NumPy
 - Scikit-learn
