@@ -1,0 +1,30 @@
+{
+  "model": "XGBoost",
+  "selection_metric": "development cross-validation mean ROC-AUC",
+  "cv_folds": 3,
+  "validation_recall_target_research_only": 0.9,
+  "decision_threshold": 0.5902295708656311,
+  "dataset_rows_after_cleaning": 96146,
+  "train_rows": 76916,
+  "holdout_rows": 19230,
+  "features": [
+    "age",
+    "hypertension",
+    "heart_disease",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level",
+    "gender",
+    "smoking_history"
+  ],
+  "test_metrics": {
+    "Accuracy": 0.9236609464378576,
+    "Precision": 0.540948275862069,
+    "Recall": 0.8879716981132075,
+    "F1": 0.6723214285714286,
+    "ROC-AUC": 0.9779006010694048,
+    "PR-AUC (average precision)": 0.8841306793165757,
+    "Brier score (lower is better)": 0.06181596219539642
+  },
+  "disclaimer": "Educational research only; not validated for clinical use"
+}
